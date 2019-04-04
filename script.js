@@ -6,25 +6,25 @@ var resultAfterTemp = "";
 
 switch (eventType) {
     case "casual":
-        resultAfterEvent = "Something comfy";
+        resultAfterEvent = "something comfy";
         break;
     case "semi-formal":
-    resultAfterEvent = "A polo";
+    resultAfterEvent = "a polo";
         break;
     case "formal":
-    resultAfterEvent = "A suit";
+    resultAfterEvent = "a suit";
         break;
     
 
 }
 
-if (tempFarh < 54) resultAfterTemp = "A coat";
+if (tempFarh < 54) resultAfterTemp = " a coat ";
 else 
-if (tempFarh >= 54 && tempFarh < 70) resultAfterTemp = "A jacket"
-else resultAfterTemp = "No jacket";
+if (tempFarh >= 54 && tempFarh < 70) resultAfterTemp = "a jacket"
+else resultAfterTemp = " no jacket ";
 
 
-result += tempFarh + " Degrees and you are going to a " + eventType + " event, you should wear " + resultAfterEvent + "and " + 
+result += tempFarh + " Degrees and you are going to a " + eventType + " event, you should wear " + resultAfterEvent + " and " + 
 resultAfterTemp;
 
 console.log(result);
